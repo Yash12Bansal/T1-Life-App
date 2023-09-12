@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#faeed9"
+    android:layout_marginBottom="?android:attr/actionBarSize"
+
+    android:orientation="vertical"
+    android:layout_marginTop="?android:attr/actionBarSize"
+    tools:context=".Fragments.FoodAddFrag">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_margin="10dp"
+            android:id="@+id/recycle"
+            android:layout_width="match_parent"
+
+            android:layout_height="match_parent"></androidx.recyclerview.widget.RecyclerView>
+
+        <FrameLayout
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:orientation="vertical"
+            android:layout_gravity="end|bottom"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp">
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:id="@+id/floatbutton"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="+"
+                android:textSize="40sp"
+                android:gravity="center"
+                android:textColor="#000"
+                android:elevation="10dp"/>
+        </FrameLayout>
+    </FrameLayout>
+
+</LinearLayout>

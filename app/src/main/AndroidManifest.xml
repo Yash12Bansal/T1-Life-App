@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.kvsc.type1">
+
+<!--    <application-->
+<!--        android:allowBackup="true"-->
+<!--        android:dataExtractionRules="@xml/data_extraction_rules"-->
+<!--        android:fullBackupContent="@xml/backup_rules"-->
+<!--        android:icon="@mipmap/ic_launcher"-->
+<!--        android:label="@string/app_name"-->
+<!--        android:roundIcon="@mipmap/ic_launcher_round"-->
+<!--        android:supportsRtl="true"-->
+<!--        android:theme="@style/Theme.Type1"-->
+<!--        tools:targetApi="31">-->
+<!--        <activity-->
+<!--            android:name=".Navigation_drawer.MainScreen"-->
+<!--            android:exported="false" />-->
+<!--        <activity-->
+<!--            android:name=".Activities.UpdateFood"-->
+<!--            android:exported="false" />-->
+<!--        <activity-->
+<!--            android:name=".Activities.Splash"-->
+<!--            android:exported="false" />-->
+<!--        <activity-->
+<!--            android:name=".Activities.ShowInsulin"-->
+<!--            android:exported="false" />-->
+<!--        <activity-->
+<!--            android:name=".Activities.ShowBG"-->
+<!--            android:exported="false" />-->
+<!--        <activity-->
+<!--            android:name=".Activities.Search"-->
+<!--            android:exported="false" />-->
+<!--        <activity-->
+<!--            android:name=".Activities.PredictionDisplay"-->
+<!--            android:exported="false" />-->
+<!--        <activity-->
+<!--            android:name=".Activities.Login"-->
+<!--            android:exported="false" />-->
+<!--        <activity-->
+<!--            android:name=".Activities.FoodLog"-->
+<!--            android:exported="false" />-->
+<!--        <activity-->
+<!--            android:name=".Activities.FoodAdd"-->
+<!--            android:exported="false" />-->
+<!--        <activity-->
+<!--            android:name=".Activities.EnterDetails"-->
+<!--            android:exported="false" />-->
+<!--        <activity-->
+<!--            android:name=".MainActivity"-->
+<!--            android:exported="true">-->
+<!--            <intent-filter>-->
+<!--                <action android:name="android.intent.action.MAIN" />-->
+
+<!--                <category android:name="android.intent.category.LAUNCHER" />-->
+<!--            </intent-filter>-->
+<!--        </activity>-->
+<!--    </application>-->
+
+    <application
+        android:allowBackup="false"
+        android:fullBackupContent="false"
+        android:fullBackupOnly="false"
+        android:icon="@drawable/t1_life__13_"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Type1"
+        tools:replace="android:allowBackup,android:fullBackupOnly,android:fullBackupContent">
+        <activity
+            android:name="com.kvsc.type1.Activities.Login"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.kvsc.type1.Navigation_drawer.MainScreen"
+            android:label="@string/title_activity_main_screen"
+            android:exported="true"
+            android:launchMode="standard"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+
+        </activity>
+        <activity
+            android:name="com.kvsc.type1.Activities.EnterDetails"
+            android:screenOrientation="portrait" />
+
+        <service android:name="com.kvsc.type1.ServicesHere.MyFirebaseMessagingService"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name="com.kvsc.type1.ServicesHere.MyFirebaseInstanceIDService"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity android:name="com.kvsc.type1.CustomDialog.CDialogue"
+            tools:ignore="Instantiatable" />
+        <activity android:name="com.kvsc.type1.CustomDialog.ExerciseDialog"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name="com.kvsc.type1.Activities.Splash"
+            android:exported="true"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+        <activity
+            android:name="com.kvsc.type1.Activities.Search"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.kvsc.type1.Activities.FoodAdd"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.kvsc.type1.Activities.FoodLog"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.kvsc.type1.Activities.UpdateFood"
+            android:parentActivityName="com.kvsc.type1.Activities.FoodLog"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.kvsc.type1.Activities.PredictionDisplay"
+            android:screenOrientation="portrait" />
+        <activity android:name="com.kvsc.type1.Activities.ShowInsulin" />
+        <activity android:name="com.kvsc.type1.Activities.ShowBG"></activity>
+    </application>
+</manifest>

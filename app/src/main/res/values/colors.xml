@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#e50236</color>
+    <color name="colorPrimaryDark">#cc0230</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#4285F4</color>
+    <color name="teal_700">#4285F4</color>
+    <color name="back">@color/white</color>
+<!--    374E8B-->
+    <color name="card_blue">#374E8B</color>
+    <color name="front">@color/white</color>
+    <color name="details_back">#1488E4</color>
+
+    <!--    b9b498-->
+    <color name="icons_background">#CDD7FF</color>
+
+    <color name="grey">#3E090001</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="shrine_pink_100">#FFFFFFFF</color>
+    <color name="shrine_pink_900">#E82323</color>
+
+</resources>

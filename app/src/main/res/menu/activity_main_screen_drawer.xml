@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+<!--        <item-->
+<!--            android:id="@+id/exercise"-->
+<!--            android:icon="@drawable/exercise_entry"-->
+<!--            android:title="Exercise" />-->
+<!--        <item-->
+<!--            android:id="@+id/insulin"-->
+<!--            android:icon="@drawable/insulin_entry"-->
+<!--            android:title="Insulin" />-->
+
+<!--        <item-->
+<!--            android:id="@+id/bg_value"-->
+<!--            android:icon="@drawable/bg"-->
+<!--            android:title="BG Value" />-->
+<!--        <item-->
+<!--            android:id="@+id/prediction"-->
+<!--            android:icon="@drawable/prediction_"-->
+<!--            android:title="Food | Insulin Prediction" />-->
+
+
+<!--        <item-->
+<!--            android:id="@+id/pie_chart"-->
+<!--            android:icon="@drawable/log"-->
+<!--            android:title="Daily log" />-->
+
+
+<!--    <item android:title="">-->
+<!--        <menu>-->
+            <item
+                android:id="@+id/contact_us"
+                android:icon="@drawable/contact"
+                android:title="Contact us" />
+
+<!--            <item-->
+<!--                android:id="@+id/log_out"-->
+<!--                android:icon="@drawable/sign_out"-->
+<!--                android:title="Sign out" />-->
+
+<!--        </menu>-->
+<!--    </item>-->
+        </group>
+
+</menu>
