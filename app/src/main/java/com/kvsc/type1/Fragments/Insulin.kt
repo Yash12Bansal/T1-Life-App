@@ -1,7 +1,6 @@
 package com.kvsc.type1.Fragments
 
 import android.app.AlertDialog
-import com.kvsc.type1.R
 import android.app.DatePickerDialog
 import android.app.Fragment
 import android.app.TimePickerDialog
@@ -36,7 +35,7 @@ import com.kvsc.type1.ClassesHere.Constants.STORED_DATE
 import com.kvsc.type1.ClassesHere.Constants.TIME_IN_MIN_INSULIN
 import com.kvsc.type1.ClassesHere.Constants.TOTAL_CARBS_FOR_PREDICTION
 import java.util.*
-
+import com.kvsc.type1.R
 
 /**
  * A simple [Fragment] subclass.

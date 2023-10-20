@@ -1,7 +1,6 @@
 package com.kvsc.type1.Activities
 
 import android.content.Context
-import com.kvsc.type1.R
 
 import android.database.sqlite.SQLiteDatabase
 import android.database.sqlite.SQLiteOpenHelper

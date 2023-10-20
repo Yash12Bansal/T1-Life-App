@@ -1,5 +1,4 @@
 package com.kvsc.type1.Activities
-import com.kvsc.type1.R
 import android.app.AlertDialog
 import android.content.Intent
 import android.os.Bundle
@@ -16,6 +15,7 @@ import com.google.android.gms.tasks.Task
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.database.DatabaseReference
 import com.google.firebase.database.FirebaseDatabase
+import com.kvsc.type1.R
 import com.kvsc.type1.ClassesHere.Constants.GENDER
 import com.kvsc.type1.ClassesHere.Constants.KEY
 import com.kvsc.type1.ClassesHere.Constants.PERSON_NAME

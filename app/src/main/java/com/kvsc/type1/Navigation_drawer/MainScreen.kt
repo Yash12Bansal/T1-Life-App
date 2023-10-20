@@ -1,8 +1,6 @@
 package com.kvsc.type1.Navigation_drawer
 
 import com.kvsc.type1.R
-import android.app.AlertDialog
-import android.content.Intent
 import android.net.Uri
 import android.os.Bundle
 import android.os.Handler

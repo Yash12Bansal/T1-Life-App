@@ -40,6 +40,7 @@ import com.kvsc.type1.Navigation_drawer.MainScreen
 import java.lang.Float
 
 class FoodAdd : AppCompatActivity() {
+
     var rotateLoading:ProgressBar?=null
     var food_category: TextView? = null
     var quantity: EditText? = null

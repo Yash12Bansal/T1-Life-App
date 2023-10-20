@@ -30,7 +30,6 @@ import com.kvsc.type1.ClassesHere.Constants.PERSON_NAME
 import com.kvsc.type1.Navigation_drawer.MainScreen
 import com.kvsc.type1.R
 
-
 //import com.sunfusheng.marqueeview.MarqueeView
 //import com.victor.loading.rotate.RotateLoading
 
@@ -187,20 +186,21 @@ class Login : AppCompatActivity(), GoogleApiClient.OnConnectionFailedListener {
         // Result returned from launching the Intent from GoogleSignInApi.getSignInIntent(...);
         if (requestCode == RC_SIGN_IN) {
             val task: Task<GoogleSignInAccount> = GoogleSignIn.getSignedInAccountFromIntent(data)
-            try {
+//            try {
                 // Google Sign In was successful, authenticate with Firebase
                 val account: GoogleSignInAccount = task.getResult(ApiException::class.java)
                 firebaseAuthWithGoogle(account)
                 rotateLoading?.visibility=View.INVISIBLE
-            } catch (e: ApiException) {
+//            } catch (e: ApiException) {
                 // Google Sign In failed, update UI appropriately
-                Log.w("login", "Google sign in failed", e)
+                Log.w("login", "Google sign in failed")
                 // ...
                 Toast.makeText(this@Login, "Google sign in failed", Toast.LENGTH_SHORT).show()
-                rotateLoading?.visibility=View.INVISIBLE
+//                rotateLoading?.visibility=View.INVISIBLE
             }
         }
-    }
+
+
 
 //    var doubleBackToExitPressedOnce = false
 //    override fun onBackPressed() {

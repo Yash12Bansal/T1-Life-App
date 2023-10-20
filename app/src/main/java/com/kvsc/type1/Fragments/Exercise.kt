@@ -1,5 +1,4 @@
 package com.kvsc.type1.Fragments
-import com.kvsc.type1.R
 
 import android.annotation.SuppressLint
 import android.app.AlertDialog
@@ -46,7 +45,7 @@ import com.kvsc.type1.ClassesHere.Constants.PROTEIN
 import com.kvsc.type1.ClassesHere.Constants.STORED_DATE
 import com.kvsc.type1.CustomDialog.ExerciseDialog
 import kotlin.collections.HashMap
-
+import com.kvsc.type1.R
 
 /**
  * A simple [Fragment] subclass.

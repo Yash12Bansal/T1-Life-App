@@ -3,7 +3,6 @@ package com.kvsc.type1.Activities
 import android.content.ContentValues
 import android.content.Context
 import android.database.Cursor
-import com.kvsc.type1.R
 
 import android.database.sqlite.SQLiteDatabase
 import android.database.sqlite.SQLiteOpenHelper
